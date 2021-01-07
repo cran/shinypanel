@@ -1,7 +1,7 @@
 Package: shinypanel
 Type: Package
 Title: Shiny Control Panel
-Version: 0.1.2
+Version: 0.1.4
 Author: Alex Pickering
 Maintainer: Alex Pickering <alexvpickering@gmail.com>
 Description: Add shiny inputs with one or more inline buttons that grow and shrink with inputs. 
@@ -12,6 +12,6 @@ LazyData: true
 RoxygenNote: 7.1.1
 Imports: shinyjs, shiny, shinyBS, htmltools, jsonlite
 NeedsCompilation: no
-Packaged: 2020-10-08 20:00:55 UTC; alex
+Packaged: 2021-01-06 23:47:09 UTC; alex
 Repository: CRAN
-Date/Publication: 2020-10-16 14:00:02 UTC
+Date/Publication: 2021-01-07 06:30:02 UTC

@@ -1,9 +1,9 @@
-74b55beb0363030f536edd674a720cee *DESCRIPTION
+9593d9fa8f2e885ee7cc4b05472fb69a *DESCRIPTION
 956918240bbfefae2629fdb6e8b00bcd *LICENSE
 4e45ac1557a0cbf452e8c73415976410 *NAMESPACE
-187dc278eea1bfb1f78511bd4949d95d *NEWS.md
-622b94e8963eb1c463424964f6b21a88 *R/selectizeInputWithButtons.R
-1939ceec450432c762f1a6cbc1b37b49 *R/textInputWithButtons.R
+bf7589a49d1081663855e5e524627c87 *NEWS.md
+5980a08f494ad62f3803459c951abcaf *R/selectizeInputWithButtons.R
+9b9ed337c11ca1b70a936eedd5119ae7 *R/textInputWithButtons.R
 a64e2d32b2f1ffc33fd763c1f862f136 *R/with_deps.R
 9c0d232416b6736ae35e4ba7d7ff5eba *README.md
 f9a793ea725deebfe9a445001d9da469 *inst/css/shinypanel.css
