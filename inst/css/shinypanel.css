@@ -180,17 +180,19 @@
     display: block !important;
 }
 
-.full-height-selectize .selectize-control {
+.full-height-selectize .selectize-control{
     margin-bottom: 0;
 }
 
-
-/* so that shrinks on mobile */
-
-.full-height-selectize input {
-    width: 100% !important;
+/* prevents height increase for multi-item */
+.full-height-selectize > .selectize-control.multi .selectize-input > div {
+    margin-bottom: 0px;
 }
 
+/* cursor on same line for multi-item */
+.full-height-selectize > .multi > .selectize-input.has-items > input {
+    top: -6.5px;
+}
 
 /* remove ugly box shadow from inputs */
 
@@ -226,4 +228,29 @@
     border: 1px solid #54575a;
     display: inline-block;
     margin-right: 5px;
+}
+
+
+/*ellipses for long selectize input*/
+.selectize-input > *{
+    margin-right: 20px;
+}
+
+
+.selectize-input > *,
+.selectize-dropdown .optgroup-header,
+.selectize-dropdown [data-selectable] {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: bottom;
+}
+
+.selectize-input > * {
+    max-width: 90%;
+}
+
+/*multi needs inline block to get choices on same line*/
+.selectize-control.multi .selectize-input > div {
+    display: inline-block !important;
 }
